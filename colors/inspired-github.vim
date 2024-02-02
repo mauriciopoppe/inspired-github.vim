@@ -1,6 +1,7 @@
 " VIM color file
 "
 " Author: Marian Pop
+" Author: Mauricio Poppe (different background color)
 " Twitter: @mvpopuk
 "
 " Note: Based on the GitHub theme for Sublime Text
@@ -27,10 +28,10 @@ hi Function                   guifg=#795da3 guibg=None guisp=None ctermfg=97 cte
 hi Identifier                 guifg=#323232 guibg=None guisp=None gui=None ctermfg=236 ctermbg=None cterm=None
 hi Keyword                    guifg=#a71d5d guibg=None guisp=None ctermfg=125 ctermbg=None
 hi LineNr                     guifg=None guibg=None guisp=None gui=None ctermfg=None ctermbg=None cterm=None
-hi Normal                     guifg=#323232 guibg=#ffffff guisp=None gui=None ctermfg=236 ctermbg=15 cterm=None
+hi Normal                     guifg=#323232 guibg=#fefcf5 guisp=None gui=None ctermfg=236 ctermbg=15 cterm=None
 hi Number                     guifg=#0086b3 guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
 hi Search                     guifg=#323232 guibg=#f8eec7 guisp=None gui=None ctermfg=236 ctermbg=230 cterm=None
-hi StorageClass               guifg=#a71d5d guibg=None guisp=None ctermfg=125 ctermbg=None 
+hi StorageClass               guifg=#a71d5d guibg=None guisp=None ctermfg=125 ctermbg=None
 hi String                     guifg=#183691 guibg=None guisp=None gui=None ctermfg=24 ctermbg=None cterm=None
 hi Type                       guifg=None guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
 hi Visual                     guifg=None guibg=#f8eec7 guisp=None gui=None ctermfg=None ctermbg=230 cterm=None
@@ -46,8 +47,8 @@ hi MatchParen                 guibg=None guifg=#ca1243 gui=bold
 hi EndOfBuffer                guifg=#ffffff
 hi Pmenu                      guibg=#F2F2F2
 hi PmenuSel                   guibg=#DDDDDD
-hi CursorLineNr               guifg=#6D6D6D guibg=#FFFFFF   
-hi SignColumn                 guifg=None guibg=None 
+hi CursorLineNr               guifg=#6D6D6D guibg=#FFFFFF
+hi SignColumn                 guifg=None guibg=None
 hi LineNr                     guifg=#BFC4C3 guibg=None
 hi ColorColumn                guibg=#f5f5f5
 hi Title                      guifg=#323232
@@ -60,9 +61,9 @@ hi SpecialKey                 guibg=None guifg=#ca1243
 hi Error                      guibg=None guifg=#ca1243
 hi VertSplit                  guibg=None
 
-hi link Conditional           Keyword  
-hi link Repeat                Keyword  
-hi link cType                 Keyword  
+hi link Conditional           Keyword
+hi link Repeat                Keyword
+hi link cType                 Keyword
 hi link Folded                Comment
 hi link IncSearch             Search
 hi link Macro                 Function
@@ -116,6 +117,6 @@ hi PmenuThumb                 guibg=#eeeeee
 hi CmpPmenuBorder             guifg=#eeeeee
 
 
-" TODO 
+" TODO
 " git modified liner nr foreground when pane is inactive
 " line number color for diagnostic lines
